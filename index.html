@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turns text into tags</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <script src="replaceText.js"></script>
+</head>
+
+<body>
+
+    <div class="">
+    
+        <header class="container navbar-header">
+
+            <a class="navbar-brand" href="#">
+                
+                <img width="25%" src="img/icon.png" alt="">
+                
+            </a>
+
+        </header>
+
+    </div>
+
+   
+
+    <div class="">
+
+        <div class="container">
+
+            <div class="col-lg-6 form-group">
+
+                
+                <textarea class="form-control" style="height: 200px;" type="text" id="inputText" placeholder="Place your text here"></textarea>
+            
+            </div>
+
+
+            <div class="col-lg-6 form-group">
+
+                
+                <textarea class="form-control" style="height: 200px;" name="textoConvertido" id="textConverted" placeholder="Your text will be converted here"></textarea>
+
+            </div>
+
+
+            <!-- botoes -->
+            <div class="pull-right col-lg-6">
+
+                <button class="btn btn-primary" id="convertTextTag" onclick="tagBtn()">Tags</button>
+
+                <button class="btn btn-primary" id="convertTextHash" onclick="hashTagBtn()">Hashtags</button>
+
+            </div>
+        
+        </div>
+
+        <footer>
+
+            <div class="rights">
+                <p >website created by Rafael Diniz &#169;</p>
+            </div>
+
+            
+            
+            
+        </footer>
+        
+    </div>
+
+    
+</body>
+</html>

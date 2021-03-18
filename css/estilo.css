@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.donate{
+    text-align: center;
+    float: right;
+    margin-top: 90px;
+    margin-right: 30px;
+    
+}
+
+.navbar-header{
+
+    height: 100px;
+    width: 100%;
+    background-color: rgb(147, 188, 255);
+    color: black;
+    box-shadow: 0 0 5px;
+
+}
+.navbar-header>a{
+    color: black;
+}
+
+.container>div{
+
+    margin-top: 30px;
+
+}
+
+.rights p{
+    
+    position: relative;
+    text-align: center;
+    top: 180px;
+
+}
